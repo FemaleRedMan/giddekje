@@ -8,7 +8,6 @@ const API_KEY = "AAA";
 app.get("/trains", (req, res) => {
     res.json({
         time: Date.now(),
-        william: "pookieee :D",
         trains: [
             {
                 id: "T1",
