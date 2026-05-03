@@ -5,7 +5,7 @@ const app = express();
 
 const API_KEY = "AAA";
 
-app.get("/trains", async(req, res) => {
+app.get("/trains", (req, res) => {
     res.json({
         time: Date.now(),
         trains: [
